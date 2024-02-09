@@ -1,0 +1,48 @@
+POST http://localhost:8080/api/education_items
+content-type: application/json
+
+{
+    "last_name": "last_name",
+    "first_name": "first_name",
+    "patro_name": "patro_name",
+    "email": "email",
+    "phone_number": "phone_number",
+    "speciality": "speciality",
+    "address_home": "address_home",
+    "address_work": "address_work",
+    "picked_month": "picked_month",
+    "picked_time": "picked_time",
+    "terms": "terms",
+}
+
+POST http://localhost:8080/api/membership_items
+content-type: application/json
+
+{
+    "last_name": "last_name",
+    "first_name": "first_name",
+    "patro_name": "patro_name",
+    "email": "email",
+    "phone_number": "phone_number",
+    "date_birth;": "date_birth",
+    "place_birth": "place_birth",
+    "address": "address",
+    "id_doc": "id_doc",
+    "date_doc": "date_doc",
+    "place_doc": "place_doc",
+    "education": "education",
+    "add_education": "add_education",
+    "interests": "interests",
+    "experience": "experience",
+    "date_member": "date_member",
+    "terms": "terms",
+}
+
+POST http://localhost:8080/api/ask_items
+content-type: application/json
+
+{
+    "name": "Aigerim",
+    "email": "gerardinearmstrong@gmail.com",
+    "content": "ss"
+}
